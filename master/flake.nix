@@ -11,6 +11,7 @@
   inputs.src-notifications-master.ref   = "refs/heads/master";
   inputs.src-notifications-master.owner = "dom96";
   inputs.src-notifications-master.repo  = "notifications";
+  inputs.src-notifications-master.dir   = "";
   inputs.src-notifications-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
